@@ -1,4 +1,14 @@
-button{
+
+  header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./images/27280143-low-poly-wallpapers.jpg");
+	height: 100vh;
+    margin:0;
+	background-size:cover;
+	background-position:center center;
+	
+  }
+  
+  button{
     border: none;
     background-color: transparent;
     padding: 0;
@@ -33,19 +43,11 @@ button{
   */
   
   /* menu */
-  header{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./images/27280143-low-poly-wallpapers.jpg");
-	height: 100vh;
-
-	background-size:cover;
-	background-position:center center;
-	
-  }
   
   .header1{
     box-sizing: border-box;
     width: 100%;
-
+    color: var(--colorWhite);
   
     display: flex;
     justify-content: center;
@@ -258,7 +260,7 @@ button{
   }
   
   body{
-    
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
     font-size: 1.6rem;
     color: var(--colorBlack);
   
@@ -308,7 +310,48 @@ button{
     line-height: 1.45;
     margin-bottom: .5rem;
   }
-  #oss{
-      
-      margin-left:10vh;
+  
+  #about{
+    text-align:center;
+    padding-top:5vh;
   }
+
+  /*automatic slider */
+
+  .tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}

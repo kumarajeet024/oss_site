@@ -49,36 +49,53 @@
           </header>
           <script src="menu.js"></script>
 
-    <div class="about_us">
-        <h2>ABOUT US</h2>
-        <h4>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-           facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-           Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-            facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.</p>
+    <!-- About us -->
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-               facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-                facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.</p>
-               
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-                   facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                   Porro dolor, hic tempore omnis! Et, quod! Repudiandae itaque necessitatibus,
-                    facilis optio debitis incidunt, veniam placeat fuga eos molestiae culpa rem eveniet.</p>
+    <div class="aboutUs">
+            <h2 style="text-align:center; padding-top:30px;"> ABOUT US</h2>
+        <div class="conatiner">
+    <div class="row">
+        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+            <h4 style="margin-left:30px;">orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                 dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                 ridiculus mus. Donec quam felis, ultricies nec,</h4>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                <h4>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                        ridiculus mus. Donec quam felis, ultricies nec</h4>
+       
+        </div>
+
+        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+
+                <h4>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                        ridiculus mus. </h4>
+       
+
+        </div>
 
     </div>
+</div>    
+
+
+    </div>
+    
 <!--slideshow for technology we use-->
 
-    <div class="technology">
+  <div class="tech-slideshow">
+  <div class="mover-1"></div>
+  <div class="mover-2"></div>
+</div>
 
-      </div>
+<div>
+
+<h2>WHAT WE DO</h2>
+
+</div>
 
     
 </body>
