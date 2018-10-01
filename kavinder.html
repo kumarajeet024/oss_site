@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OSSRNDC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/026eb024af.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <style>
+        body{
+            font-family: 'Roboto Slab', serif;
+            scroll-behavior: smooth;
+            background-color:white;
+
+        }
+      /*  .aboutus{
+            text-align: center;
+            padding-top: 30px;
+            background-color:white;
+            height:auto;
+            background-size:100%;
+      background-repeat: no-repeat;
+            color:darkgrey;
+        }*/
+        .aboutusbox{
+            background-color: black;
+        }
+       .frame{
+  display:inline-table;
+  border-collapse:separate;
+  border-spacing:20px;
+  width:auto;
+           align-items: center;
+           padding-left: 3vw;
+}
+.bs_test{
+
+  width:500px;
+  height:400px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  border:1px solid #000;
+    border-radius: 2%;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  transition:0.5s;
+        }
+        .Float{
+  box-shadow:0 0 0 0px rgba(0,0,0,0);
+  top:0px;
+}
+.Float:hover{
+  box-shadow:0 80px 50px -60px rgba(0,0,0,0.5);
+  position:relative;
+  top:-20px;
+}
+        .pageOne{
+            text-align: center;
+            padding-top: 50px;
+            background-color:black;
+            height:auto;
+            background-size:100%;
+      background-repeat: no-repeat;
+        }
+        .columnicon{
+            color:white;
+            font-size: 25px;
+            padding-bottom: 40px;
+
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway);
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1em 0 1em 0;
+    font-family: 'Roboto';
+}
+.container{
+  padding: 1em 0;
+  float: left;
+  width: 100%;
+
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay{
+  opacity: 1;
+}
+.content-image{
+  width: 100%;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+.fadeIn-bottom{
+  top: 80%;
+}
+.fadeIn-top{
+  top: 20%;
+}
+.fadeIn-left{
+  left: 20%;
+}
+.fadeIn-right{
+  left: 80%;
+}
+        .pageThreebutton{
+            padding:130px 0 0 0;
+        }
+       .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border: 1.5px solid black;
+ align-items: center;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+        .events{
+            background-color:seagreen;
+            height:auto;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width:auto;
+            padding-bottom: 60px;
+        }
+
+        #slider-container {
+  position:relative;
+  height: 150px;
+  width: 100%;
+  max-width: 1000px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  overflow: hidden;
+  box-shadow: 0 0 0px #888;
+}
+#slider-scroller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(260px * 6);
+  transition: all 1s ease;
+}
+.slider-item {
+  width: 220px;
+  height: 110px;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+.slider-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 200px;
+  max-height: 100px;
+}
+
+
+        .pageFour{
+             text-align: center;
+            padding-top: 50px;
+            background-color:black;
+            height:auto;
+            background-size:100%;
+      background-repeat: no-repeat;
+            color:white;
+
+
+
+        }
+        .header{
+            padding:1vw 0 4vw  0;
+            font-family: 'Roboto';
+            letter-spacing: 0.5;
+            font-size:40px;
+        }
+        .col1{
+           background-image: url('https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdf1d82d2f40790f618bc765525d5db4&auto=format&fit=crop&w=787&q=80');
+            background-size:cover;
+            height:40vw;
+
+
+
+        }
+
+
+
+
+        .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+    </style>
+    </head>
+    <body>
+        <div class="aboutus">
+        <div class="container-fluid">
+            <h1 class="main-title"><strong>About Us</strong></h1>
+
+            <div class="row">
+                <div class="container-fluid">
+            <div class="col-md-4">
+                <div class="frame">
+  <div class="bs_test Float"><p>Float</p></div>
+            </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="frame">
+  <div class="bs_test Float"><p>Float</p></div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                  <div class="frame">
+  <div class="bs_test Float"><p>Float</p></div>
+            </div>
+            </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+    <div class="container-fluid pageOne">
+        <div class="row">
+        <div class="col-sm-3">
+            <div class="columnicon">
+            <span class="glyphicon" style="font-size:120px;">&#xe135;</span>
+                <p class="text-responsive">Web Development</p>
+            </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="columnicon">
+                       <i style="font-size:130px;" class="fa">&#xf108;</i>
+                    <p class="text-responsive">Web Design</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="columnicon">
+                        <i style="font-size:130px" class="fa">&#xf17b;</i>
+                    <p class="text-responsive">Android Development</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="columnicon">
+                        <i style="font-size:130px;" class="fa">&#xf1c0;</i>
+                    <p class="text-responsive">Database</p>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    <!--pageThree-->
+
+        <h1 class="main-title"><strong>Our Projects</strong></h1>
+        <h3 class="text-center">What We Have Done So Far...</h3>
+
+<div class="container">
+
+  <div class="content">
+
+
+      <div class="content-overlay"></div>
+      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">This is a title</h3>
+        <p class="content-text">This is a short description</p>
+      </div>
+
+  </div>
+</div>
+
+
+
+        <div class="container">
+
+  <div class="content">
+
+
+     <div class="content-overlay"></div>
+      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">This is a title</h3>
+        <p class="content-text">This is a short description</p>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+        <div class="container">
+
+  <div class="content">
+
+   <!-- <a href="#" target="_blank">-->
+     <div class="content-overlay"></div>
+      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">This is a title</h3>
+        <p class="content-text">This is a short description</p>
+      </div>
+
+  </div>
+</div>
+
+         <div class="pageThreebutton text-center">
+        <button class="button" id="myBtn" style="vertical-align:middle;margin: 1vw 0 2vw 0;"><span>Explore</span></button>
+        </div>
+        <div id="myModal" class="modal">
+
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+        <div class="events">
+                    <div class="container-fluid">
+        <h1 class="main-title"><strong>Our Events</strong></h1>
+            <div id="slider-container">
+  <div id="slider-scroller">
+    <div class="slider-item"><img src="https://images.unsplash.com/photo-1529835299686-53bd13fb3ee1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=acef595b97346a9bf062c9e8661e8bf1&auto=format&fit=crop&w=1050&q=80" /></div>
+    <div class="slider-item"><img src="https://images.unsplash.com/photo-1534491539225-5ae494cd2740?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96c5dac004debbfe277a62b897e98f86&auto=format&fit=crop&w=1050&q=80" /></div>
+    <div class="slider-item"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1910d96881ab2d90dfe217957f00cae0&auto=format&fit=crop&w=1050&q=80" /></div>
+    <div class="slider-item"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e41af172b07cceb6ccc1c785e5463e3f&auto=format&fit=crop&w=1050&q=80" /></div>
+    <div class="slider-item"><img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac84274453d0240fd5a88b59c946c292&auto=format&fit=crop&w=1050&q=80" /></div>
+  </div>
+        </div>
+        </div>
+        </div>
+        <!--pageFour-->
+        <div class="pageFour">
+        <div class="container-fluid">
+
+            <p class="header">Connect With Us</p>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                <div class="col1">
+                   <!-- <img src="https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdf1d82d2f40790f618bc765525d5db4&auto=format&fit=crop&w=787&q=80" alt="hello everyone">-->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                 <div class="w3-padding-40 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey w3-left-align">Contact Us</h2>
+    <hr style="width:300px" class="w3-opacity w3-center">
+
+    <div class="w3-section w3-left-align">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send us a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+  </div>
+
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+        function slideSlider(){
+  $("#slider-scroller").css({"left":"0%","transition":"all 0s linear"});
+  $("#slider-scroller").css({"left": String(parseInt($("#slider-scroller").css("left")) - 500) + "px","transition":"all 5s linear"});
+  setTimeout(function(){moveSliderItem()}, 2635);
+}
+function moveSliderItem(){
+  $("#slider-scroller div").first().detach().appendTo($("#slider-scroller"));
+  slideSlider();
+}
+slideSlider();
+        </script>
+    </body>
+</html>

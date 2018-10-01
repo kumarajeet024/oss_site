@@ -6,12 +6,15 @@
     <title>OSSR&DC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="caraousel1.css">
-<script src="caraousel1.js"></script>
 
    
 </head>
@@ -93,87 +96,94 @@
 
   <div class="tech-slideshow">
   <div class="mover-1"></div>
-  <div class="mover-2"></div>
 </div>
 
 <div>
   <h2>WHAT WE ARE FOR</h2>
+  <div class="row">
+  <div class="col-lg-3">
+<img src="bulb.png" alt="bulb">  
+</div>
   <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-100 mx-auto" role="listbox">
-            <div class="carousel-item col-md-3  active">
+            <div class="carousel-item col-md-3">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 1" class="thumb">
-                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+      
+                      <img class="img-fluid mx-auto d-block" src="./images1/development.jpg" alt="slide 1">
                     </a>
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 3" class="thumb">
-                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                   
+                     <img class="img-fluid mx-auto d-block" src="./images1/analytics.jpg" alt="slide 2">
+                     
                     </a>
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3 active">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 4" class="thumb">
-                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                    
+                     <img class="img-fluid mx-auto d-block" src="./images1/coding.jpg" alt="slide 3">
                     </a>
+                    
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3 ">
                 <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 5" class="thumb">
-                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                   
+                     <img class="img-fluid mx-auto d-block" src="./images1/android.jpg" alt="slide 4">
+                    
                     </a>
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3">
               <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 6" class="thumb">
-                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                   
+                      <img class="img-fluid mx-auto d-block" src="./images1/designing.jpg" alt="slide 5">
+                     
                     </a>
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3 ">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 7" class="thumb">
-                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                   
+                      <img class="img-fluid mx-auto d-block" src="./images1/machine.jpg" alt="slide 6">
+                      
                     </a>
                   </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-3 ">
+            <div class="carousel-item col-lg-3">
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 8" class="thumb">
-                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                    
+                      <img class="img-fluid mx-auto d-block" src="./images1/cyber.jpg" alt="slide 7">
+                      
                     </a>
                   </div>
                 </div>
             </div>
-             <div class="carousel-item col-md-3  ">
-                <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 2" class="thumb">
-                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
-                    </a>
-                  </div>
-                  
-                </div>
-            </div>
+             
         </div>
         <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -186,5 +196,397 @@
     </div>
 </div>
 </div>
+</div>
+
+
+<h2>OUR TEAM</h2>
+
+<div class="row">
+    <div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+
+    </div>
+  </div>
+</div>
+  <!-- END: card -->
+</section>
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="bg1.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="ajeet1.jpg" alt="Short description">
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Ajeet Kumar</h3>
+      <p class="card__job">Web & graphics designer</p>
+      <p class="card__bio"></p>
+    </div>
+    <div class="card__footer">
+      <img src="github.png" alt="github link">
+      <img src="fb.png" alt="fb link">
+    </div>
+  </div>
+</div>
+
+
+</div>
+  <!-- END: card -->
+
+
+</section>
+
+<div class="row second">
+  <div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+
+  </div>
+</div>
+</div>
+<!-- END: card -->
+</section>
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+  </div>
+</div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+  </div>
+</div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+  </div>
+</div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+  </div>
+</div>
+</div>
+
+<div class="col-lg-2 col-sm-4 col-md-3">
+<section class="wrapper">
+
+
+
+<!-- BEGIN: card -->
+<div class="card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="bg1.jpg" alt="Short description">
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="ajeet1.jpg" alt="Short description">
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Ajeet Kumar</h3>
+    <p class="card__job">Web & graphics designer</p>
+    <p class="card__bio"></p>
+  </div>
+  <div class="card__footer">
+    <img src="github.png" alt="github link">
+    <img src="fb.png" alt="fb link">
+  </div>
+</div>
+</div>
+
+
+</div>
+<!-- END: card -->
+
+
+</section>
+
+
+<script src="profile.js"></script>
+
+
+
+
+<script src="caraousel1.js"></script>
 </body>
 </html>
