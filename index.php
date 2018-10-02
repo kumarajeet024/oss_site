@@ -11,21 +11,32 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="caraousel1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/026eb024af.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="kavinder.css" type="text/css">
 
-   
+
 </head>
 <body>
-  
+
 
         <header>
             <h2 id="oss">OSSR&DC</h2>
           <div class="header1">
             <div class="hamburger">
-              <button class="button hamburger__button js-menu__toggle">
+              <button class="button1 hamburger__button js-menu__toggle">
                 <span class="hamburger__label">Open menu</span>
               </button>
             </div>
@@ -53,7 +64,7 @@
               </ul>
             </nav>
             </div>
-            
+
           </header>
           <script src="menu.js"></script>
 
@@ -65,33 +76,33 @@
     <div class="row">
         <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
             <h4 style="margin-left:30px;">orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                 dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                 dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                  ridiculus mus. Donec quam felis, ultricies nec,</h4>
 
         </div>
 
         <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                 <h4>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                         ridiculus mus. Donec quam felis, ultricies nec</h4>
-       
+
         </div>
 
         <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 
                 <h4>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                         ridiculus mus. </h4>
-       
+
 
         </div>
 
     </div>
-</div>    
+</div>
 
 
     </div>
-    
+
 <!--slideshow for technology we use-->
 
   <div class="tech-slideshow">
@@ -101,109 +112,150 @@
 <div>
   <h2>WHAT WE ARE FOR</h2>
   <div class="row">
-  <div class="col-lg-3">
-<img src="bulb.png" alt="bulb">  
+  <div class="col-md-3">
+<img src="bulb.png" alt="bulb">
 </div>
-  <div class="container-fluid">
-    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
-        <div class="carousel-inner row w-100 mx-auto" role="listbox">
-            <div class="carousel-item col-md-3">
-               <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 1" class="thumb">
-      
-                      <img class="img-fluid mx-auto d-block" src="./images1/development.jpg" alt="slide 1">
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3">
-               <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 3" class="thumb">
-                   
-                     <img class="img-fluid mx-auto d-block" src="./images1/analytics.jpg" alt="slide 2">
-                     
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3 active">
-               <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 4" class="thumb">
-                    
-                     <img class="img-fluid mx-auto d-block" src="./images1/coding.jpg" alt="slide 3">
-                    </a>
-                    
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3 ">
-                <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 5" class="thumb">
-                   
-                     <img class="img-fluid mx-auto d-block" src="./images1/android.jpg" alt="slide 4">
-                    
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3">
-              <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 6" class="thumb">
-                   
-                      <img class="img-fluid mx-auto d-block" src="./images1/designing.jpg" alt="slide 5">
-                     
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3 ">
-               <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 7" class="thumb">
-                   
-                      <img class="img-fluid mx-auto d-block" src="./images1/machine.jpg" alt="slide 6">
-                      
-                    </a>
-                  </div>
-                </div>
-            </div>
-            <div class="carousel-item col-lg-3">
-               <div class="panel panel-default">
-                  <div class="panel-thumbnail">
-                    <a href="#" title="image 8" class="thumb">
-                    
-                      <img class="img-fluid mx-auto d-block" src="./images1/cyber.jpg" alt="slide 7">
-                      
-                    </a>
-                  </div>
-                </div>
-            </div>
-             
-        </div>
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+
+<!--<div id="myCarouselWrapper" class="container-fluid">
+
+<div id="myCarousel" class="carousel slide">
+
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/fff&text=1" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/CCCCCC&text=2" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/eeeeee&text=3" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/f4f4f4&text=4" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/fcfcfc/333&text=5" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/f477f4/fff&text=6" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/f477f4/fff&text=7" class="img-responsive"></a></div>
+</div>
+<div class="item">
+<div class="item-item col-md-3 col-sm-4"><a href="#"><img src="http://placehold.it/500/f477f4/fff&text=8" class="img-responsive"></a></div>
 </div>
 </div>
+
+<!-- Controls -->
+<!--
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
 </div>
+
+</div>
+<script src="caraousel1.js"></script>
+</div>
+-->
+</div>
+
+
+
+<h1 class="main-title"><strong>Our Projects</strong></h1>
+<h3 class="text-center">What We Have Done So Far...</h3>
+
+<div class="container">
+
+<div class="content">
+
+
+<div class="content-overlay"></div>
+<img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title">This is a title</h3>
+<p class="content-text">This is a short description</p>
+</div>
+
+</div>
+</div>
+
+
+
+<div class="container">
+
+<div class="content">
+
+
+<div class="content-overlay"></div>
+<img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title">This is a title</h3>
+<p class="content-text">This is a short description</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="container">
+
+<div class="content">
+
+<!-- <a href="#" target="_blank">-->
+<div class="content-overlay"></div>
+<img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+<div class="content-details fadeIn-bottom">
+<h3 class="content-title">This is a title</h3>
+<p class="content-text">This is a short description</p>
+</div>
+
+</div>
+</div>
+
+ <div class="pageThreebutton text-center">
+<button class="button" id="myBtn" style="vertical-align:middle;margin: 1vw 0 2vw 0;"><span>Explore</span></button>
+</div>
+<div id="myModal" class="modal">
+
+
+<div class="modal-content">
+<span class="close">&times;</span>
+<p>Some text in the Modal..</p>
+</div>
+
+</div>
+
+<div class="events">
+            <div class="container-fluid">
+<h1 class="main-title"><strong>Our Events</strong></h1>
+    <div id="slider-container">
+<div id="slider-scroller">
+<div class="slider-item"><img src="https://images.unsplash.com/photo-1529835299686-53bd13fb3ee1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=acef595b97346a9bf062c9e8661e8bf1&auto=format&fit=crop&w=1050&q=80" /></div>
+<div class="slider-item"><img src="https://images.unsplash.com/photo-1534491539225-5ae494cd2740?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96c5dac004debbfe277a62b897e98f86&auto=format&fit=crop&w=1050&q=80" /></div>
+<div class="slider-item"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1910d96881ab2d90dfe217957f00cae0&auto=format&fit=crop&w=1050&q=80" /></div>
+<div class="slider-item"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e41af172b07cceb6ccc1c785e5463e3f&auto=format&fit=crop&w=1050&q=80" /></div>
+<div class="slider-item"><img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac84274453d0240fd5a88b59c946c292&auto=format&fit=crop&w=1050&q=80" /></div>
+</div>
+</div>
+</div>
+</div>
+
+
 
 
 <h2>OUR TEAM</h2>
 
 <div class="row">
     <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -235,7 +287,7 @@
   <!-- END: card -->
 </section>
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -265,7 +317,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -295,7 +347,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -325,7 +377,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -355,7 +407,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -393,7 +445,7 @@
 
 <div class="row second">
   <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -425,7 +477,7 @@
 <!-- END: card -->
 </section>
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -455,7 +507,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -485,7 +537,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -515,7 +567,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -545,7 +597,7 @@
 </div>
 
 <div class="col-lg-2 col-sm-4 col-md-3">
-<section class="wrapper">
+<section class="wrapper1">
 
 
 
@@ -585,8 +637,54 @@
 <script src="profile.js"></script>
 
 
+<div class="pageFour">
+<div class="container-fluid">
+
+    <p class="header">Connect With Us</p>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+        <div class="col1">
+           <!-- <img src="https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdf1d82d2f40790f618bc765525d5db4&auto=format&fit=crop&w=787&q=80" alt="hello everyone">-->
+            </div>
+        </div>
+        <div class="col-sm-6">
+         <div class="w3-padding-40 w3-content w3-text-grey" id="contact">
+<h2 class="w3-text-light-grey w3-left-align">Contact Us</h2>
+<hr style="width:300px" class="w3-opacity w3-center">
+
+<div class="w3-section w3-left-align">
+<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+</div><br>
+<p>Lets get in touch. Send us a message:</p>
+
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Email" required name="Email"></p>
+<p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Subject" required name="Subject"></p>
+<p><input class="w3-input w3-padding-16 w3-round-xxlarge w3-hover-black" type="text" placeholder="Message" required name="Message"></p>
+<p>
+<button class="w3-button w3-light-grey w3-padding-large" type="submit">
+  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+</button>
+</p>
+</form>
+
+</div>
+
+        </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+<script src="kavinder.js"></script>
 
 
-<script src="caraousel1.js"></script>
+
+
+
 </body>
 </html>
