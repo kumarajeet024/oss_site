@@ -25,7 +25,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/bootstrap-responsive.css">
-<link rel="stylesheet" href="kavinder.css" type="text/css">
+<link rel="stylesheet" href="kavinder.css" type="text/css"> 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 </head>
@@ -69,7 +70,7 @@
           <script src="menu.js"></script>
 
     <!-- About us -->
-
+<div class="item" data-aos="zoom-in">
     <div class="aboutUs">
             <h2 style="text-align:center; padding-top:30px;"> ABOUT US</h2>
         <div class="conatiner">
@@ -102,15 +103,16 @@
 
 
     </div>
+</div>
 
 <!--slideshow for technology we use-->
 
-  <div class="tech-slideshow">
+  <div class="tech-slideshow item" data-aos="fade-right">
   <div class="mover-1"></div>
 </div>
 
-<div>
-  <h2>WHAT WE ARE FOR</h2>
+<div class="item" data-aos="zoom-in">
+  <h2 class="item" data-aos="zoom-in">WHAT WE ARE FOR</h2>
   <div class="row">
   <div class="col-md-3">
 <img src="bulb.png" alt="bulb">
@@ -167,9 +169,9 @@
 
 
 
-<h1 class="main-title"><strong>Our Projects</strong></h1>
-<h3 class="text-center">What We Have Done So Far...</h3>
-
+<h1 class="main-title item" data-aos="zoom-in"><strong>Our Projects</strong></h1>
+<h3 class="text-center item" data-aos="zoom-in"">What We Have Done So Far...</h3>
+<div class="item" data-aos="zoom-in">
 <div class="container">
 
 <div class="content">
@@ -232,8 +234,9 @@
 </div>
 
 </div>
+</div>
 
-<div class="events">
+<div class="events item" data-aos="zoom-in">
             <div class="container-fluid">
 <h1 class="main-title"><strong>Our Events</strong></h1>
     <div id="slider-container">
@@ -251,9 +254,9 @@
 
 
 
-<h2>OUR TEAM</h2>
+<h2 class="item" data-aos="zoom-in">OUR TEAM</h2>
 
-<div class="row">
+<div class="row item" data-aos="zoom-in">
     <div class="col-lg-2 col-sm-4 col-md-3">
 <section class="wrapper1">
 
@@ -443,7 +446,7 @@
 
 </section>
 
-<div class="row second">
+<div class="row second item" data-aos="zoom-in">
   <div class="col-lg-2 col-sm-4 col-md-3">
 <section class="wrapper1">
 
@@ -640,8 +643,8 @@
 <div class="pageFour">
 <div class="container-fluid">
 
-    <p class="header">Connect With Us</p>
-    <div class="container-fluid">
+    <p class="header item" data-aos="zoom-in">Connect With Us</p>
+    <div class="container-fluid item" data-aos="zoom-in">
     <div class="row">
         <div class="col-sm-6">
         <div class="col1">
@@ -650,7 +653,7 @@
         </div>
         <div class="col-sm-6">
          <div class="w3-padding-40 w3-content w3-text-grey" id="contact">
-<h2 class="w3-text-light-grey w3-left-align">Contact Us</h2>
+<h2 class="w3-text-light-grey w3-left-align item" data-aos="zoom-in">Contact Us</h2>
 <hr style="width:300px" class="w3-opacity w3-center">
 
 <div class="w3-section w3-left-align">
@@ -682,7 +685,10 @@
 </div>
 <script src="kavinder.js"></script>
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 
