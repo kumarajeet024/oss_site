@@ -11,8 +11,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
 
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="caraousel1.css">
@@ -29,12 +29,25 @@
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
+
 </head>
 <body>
 
 
         <header>
             <h2 id="oss">OSSR&DC</h2>
+            
+
+
+
+<h1>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "We Create.", "We Design.", "We are the Centre of Technocrats."]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+
+
+
           <div class="header1">
             <div class="hamburger">
               <button class="button1 hamburger__button js-menu__toggle">
@@ -689,7 +702,7 @@
   <script>
     AOS.init();
   </script>
-
+<script src="typewriter.js"></script>
 
 
 </body>
