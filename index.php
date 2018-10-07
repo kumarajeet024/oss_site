@@ -27,6 +27,8 @@
 <link rel="stylesheet" href="css/bootstrap-responsive.css">
 <link rel="stylesheet" href="kavinder.css" type="text/css"> 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" type="text/css" href="particles.css">
 
 
 
@@ -35,17 +37,21 @@
 
 
         <header>
-            <h2 id="oss">OSSR&DC</h2>
-            
-
-
-
+         <div id="writer">
 <h1>
-  <a href="" class="typewrite" data-period="2000" data-type='[ "We Create.", "We Design.", "We are the Centre of Technocrats."]'>
+  <a href="" class="typewrite" style="color:white; font-size:25px;" data-period="2000" data-type='[ "We Create.", "We Design.", "We are the Centre of Technocrats."]'>
     <span class="wrap"></span>
   </a>
 </h1>
+        <div id="particles-js">
 
+<!--<div id="writer">
+<h1>
+  <a href="" class="typewrite" style="color:white; font-size:25px;" data-period="2000" data-type='[ "We Create.", "We Design.", "We are the Centre of Technocrats."]'>
+    <span class="wrap"></span>
+  </a>
+</h1>-->
+</div>
 
 
           <div class="header1">
@@ -78,10 +84,9 @@
               </ul>
             </nav>
             </div>
-
+</div>
           </header>
           <script src="menu.js"></script>
-
     <!-- About us -->
 <div class="item" data-aos="zoom-in">
     <div class="aboutUs">
@@ -703,7 +708,7 @@
     AOS.init();
   </script>
 <script src="typewriter.js"></script>
-
+<script src="particles.js"></script>
 
 </body>
 </html>
